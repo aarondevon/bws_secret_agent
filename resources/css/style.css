@@ -1,0 +1,50 @@
+html {
+	font-size: 18px;
+}
+.flex-container {
+	display: flex;
+}
+
+.logo	{
+	background: #000;
+	color: #fff;
+	align-items: center;
+	height: 3.25em;
+	padding-left: 6em;
+}
+
+.logo img {
+	width: 4%;
+	height: auto;
+	overflow: hidden;
+}
+.logo span {
+	margin-left: .75em;
+}
+
+.main-banner {
+	position: relative;
+	background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+	background-size: cover;
+	height: 25em;	
+}
+
+.main-banner-content {
+	position: absolute;
+	top: 10.75em;
+	left: 10em;
+	background: #000;
+	color: #fff;
+	width: 8em;
+	padding: 2em;
+}
+
+.main-banner-content p {
+	font-size: .75em;
+	margin-bottom: 1em;
+}
+
+.main-banner-content h2 {
+	font-size: 1.5em;
+}
+
